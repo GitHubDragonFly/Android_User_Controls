@@ -1,0 +1,29 @@
+# AndroidUserControls
+Relatively simple looking and somewhat customizable Android user controls: AngleIndicator.
+
+Tested in the app with minimum requirement of Android 4.1 (API level 16) while targeting Android 11 (API level 30).
+
+# Functionality
+- AngleIndicator
+  - a control to indicate rotational position/angle, measured counterclockwise from the zero/home position.
+  - zero/home position could be selected as either of East (0), North (90), West (180) or South (270).
+  - could potentially be used as a weather vane since it can show the Direction suffix.
+  - set the control's layout_width / layout_height to the same value, otherwise you might get some odd "Arrow" graphics. 
+  - possibly use either Arc or Pie to sweep the angle for better visual appearance, see the screenshot.
+  - it has publicly accessible methods: CurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
+
+Screenshot is included in each control's folder.
+
+# Install
+
+All it should take is to:
+
+- Add the control's java file to your app's Main/java/com.e.whatever folder (copy-paste).
+- Add the control's xml file to your app's Main/res/values folder (copy-paste).
+- Save it all, Sync with Gradle, Build/Rebuild Project, open one of your layout files and look for the new control under "Project".
+
+# Licensing
+These are all licensed under MIT License.
+
+# Trademarks
+Any and all trademarks, either directly on indirectly mentioned in any control, belong to their respective owners.
