@@ -11,6 +11,10 @@ Tested in the app with minimum requirement of Android 4.1 (API level 16) while t
   - set the control's layout_width / layout_height to the same value, otherwise you might get some odd "Arrow" graphics. 
   - possibly use either Arc or Pie to sweep the angle for better visual appearance, see the screenshot.
   - it has publicly accessible methods: CurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
+- LEDLight
+  - a control that can be turned ON/OFF and Blink.
+  - set the control's layout_width / layout_height to the same value to avoid any odd graphics. 
+  - it has publicly accessible methods: isLED_ON() and isLED_Blink() for reading and setLED_ON(newBooleanValue) and setLED_Blink(newBooleanValue) for writing.
 
 Screenshot is included in each control's folder.
 
@@ -20,7 +24,7 @@ All it should take is to:
 
 - Add the control's java file to your app's Main/java/com.e.whatever folder (copy-paste).
 - Add the control's xml file to your app's Main/res/values folder (copy-paste).
-- Save it all, Sync with Gradle, Build/Rebuild Project, open one of your layout files and look for the new control under "Project".
+- Save it all, Sync with Gradle, Build/Rebuild Project, open one of your activity layout files and look for the new control under "Project".
 
 # Licensing
 These are all licensed under MIT License.
