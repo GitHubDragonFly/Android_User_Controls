@@ -7,8 +7,9 @@ Tested in the app with minimum requirement of Android 4.1 (API level 16) while t
 - AngleIndicator
   - a control to indicate rotational position/angle, measured counterclockwise from the zero/home position.
   - zero/home position could be selected as either of East (0), North (90), West (180) or South (270).
+  - designed to show -360 to 360 values and will reduce all other values to this range.
   - could potentially be used as a weather vane since it can show the Direction suffix.
-  - set the control's layout_width / layout_height to the same value, otherwise you might get some odd "Arrow" graphics. 
+  - try setting the control's layout_width / layout_height to the same value, otherwise you might get some odd "Arrow" graphics. 
   - possibly use either Arc or Pie to sweep the angle for better visual appearance, see the screenshot.
   - it has publicly accessible methods: CurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
 - LEDLight
