@@ -1,11 +1,11 @@
 package com.e.phonetest;
 
-import android.os.CountDownTimer;
 import android.view.View;
 import android.content.Context;
-import androidx.core.graphics.ColorUtils;
 import android.content.res.TypedArray;
 import android.util.AttributeSet;
+import android.os.CountDownTimer;
+import androidx.core.graphics.ColorUtils;
 import android.graphics.RadialGradient;
 import android.graphics.Bitmap;
 import android.graphics.Paint;
@@ -17,11 +17,11 @@ import android.graphics.RectF;
 public class LEDLight extends View {
 
     public static final int LED_COLOR = Color.BLUE;
-    public static final int LED_BLINK_INTERVAL = 500;
     public static final float LED_LIGHT_COLOR_RATIO = 0.95f;
     public static final float LED_DARK_COLOR_RATIO = 0.15f;
     public static final boolean LED_ON = false;
     public static final boolean LED_BLINK = false;
+    public static final int LED_BLINK_INTERVAL = 500;
 
     private boolean mLED_ON, mLED_Blink, switchONOFF;
     private int mLED_Color, mLED_Blink_Interval;
@@ -79,9 +79,9 @@ public class LEDLight extends View {
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.LEDLight, defStyle, 0);
 
         mLED_Color = typedArray.getColor(R.styleable.LEDLight_led_Color, LED_COLOR);
-        mLED_Blink_Interval = typedArray.getColor(R.styleable.LEDLight_led_Blink_Interval, LED_BLINK_INTERVAL);
         mLED_ON = typedArray.getBoolean(R.styleable.LEDLight_led_ON, LED_ON);
         mLED_Blink = typedArray.getBoolean(R.styleable.LEDLight_led_Blink, LED_BLINK);
+        mLED_Blink_Interval = typedArray.getInt(R.styleable.LEDLight_led_Blink_Interval, LED_BLINK_INTERVAL);
         mLED_LightColorRatio = typedArray.getFloat(R.styleable.LEDLight_led_LightColorRatio, LED_LIGHT_COLOR_RATIO);
         mLED_DarkColorRatio = typedArray.getFloat(R.styleable.LEDLight_led_DarkColorRatio, LED_DARK_COLOR_RATIO);
 
