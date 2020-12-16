@@ -1,7 +1,9 @@
 # AndroidUserControls
-Relatively simple looking and somewhat customizable Android user controls.
+A couple of relatively simple looking and somewhat customizable Android user controls.
 
 Tested in the app with minimum requirement of Android 4.1 (API level 16) while targeting Android 11 (API level 30).
+
+Both controls have been included in the "Gauge" screen of the [PhoneTest](https://github.com/GitHubDragonFly/PhoneTest) project.
 
 # Functionality
 - AngleIndicator
@@ -23,8 +25,8 @@ Screenshot is included in each control's folder.
 
 All it should take is to:
 
-- Add the control's java file to your app's Main/java/com.e.whatever folder (copy-paste).
-- Add the control's xml file to your app's Main/res/values folder (copy-paste).
+- Add the control's java file to your app's src/main/java/com.e.whatever folder (copy-paste).
+- Add the control's xml file to your app's src/main/res/values folder (copy-paste).
 - Save it all, Sync with Gradle, Build/Rebuild Project, open one of your activity layout files and look for the new control under "Project".
 
 # Licensing
