@@ -1,9 +1,7 @@
 # AndroidUserControls
 A couple of relatively simple looking and somewhat customizable Android user controls.
 
-Tested in the app with minimum requirement of Android 4.1 (API level 16) while targeting Android 11 (API level 30).
-
-Both controls have been included in the "Gauge" screen of the [PhoneTest](https://github.com/GitHubDragonFly/PhoneTest) project.
+Both controls have been included in the "Gauge" screen of the [PhoneTest](https://github.com/GitHubDragonFly/PhoneTest) project, with minimum requirement of Android 4.1 (API level 16) while targeting Android 11 (API level 30).
 
 # Functionality
 - AngleIndicator
