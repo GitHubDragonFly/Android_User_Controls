@@ -9,13 +9,13 @@ Both controls have been included in the "Gauge" screen of the [PhoneTest](https:
   - zero/home position could be selected as either of East (0), North (90), West (180) or South (270).
   - designed to show -360 to 360 values and will reduce all other values to this range.
   - could potentially be used as a weather vane since it can show the Direction suffix.
-  - try setting the control's layout_width / layout_height to the same value, otherwise you might get some odd "Arrow" graphics. 
   - possibly use either Arc or Pie to sweep the angle for better visual appearance, see the screenshot.
   - it has publicly accessible methods: CurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
-- LEDLight
-  - a control that can be turned ON/OFF and Blink.
   - set the control's layout_width / layout_height to the same value to avoid any odd graphics. 
+- LEDLight
+  - a control that can be turned ON/OFF and Blink (which is of a higher order but will restore the last ON/OFF state once the blinking stops).
   - it has publicly accessible methods: isLED_ON() and isLED_Blink() for reading and setLED_ON(newBooleanValue) and setLED_Blink(newBooleanValue) for writing.
+  - set the control's layout_width / layout_height to the same value to avoid any odd graphics. 
 
 Screenshot is included in each control's folder.
 
