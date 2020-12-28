@@ -1,4 +1,4 @@
-package com.e.tablettest;
+package com.e.phonetest;
 
 import android.view.View;
 import android.content.Context;
@@ -259,7 +259,7 @@ public class AngleIndicator extends View {
 
     private void drawArrow(Canvas canvas){
         canvas.translate(getWidth() / 2f, getHeight() / 2f);
-        canvas.rotate(-(mCurrentValue + mZeroPosition));
+        canvas.rotate(-(mCurrentValue % 360) + mZeroPosition);
         canvas.translate(-getWidth() / 2f, -getHeight() / 2f);
 
         canvas.drawPath(polygonPath, lgBrush);
