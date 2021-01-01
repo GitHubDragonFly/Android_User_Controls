@@ -1,7 +1,7 @@
 # AndroidUserControls
-A couple of relatively simple looking and somewhat customizable Android user controls.
+A few relatively simple looking and somewhat customizable Android user controls.
 
-Both controls have been included in the "Gauge" screen of the [PhoneTest](https://github.com/GitHubDragonFly/PhoneTest) project, with minimum requirement of Android 4.1 (API level 16) while targeting Android 11 (API level 30).
+Some controls have been included in the "Gauge" screen of the [PhoneTest](https://github.com/GitHubDragonFly/PhoneTest) project, with minimum requirement of Android 4.1 (API level 16) while targeting Android 11 (API level 30).
 
 # Functionality
 - AngleIndicator
@@ -11,6 +11,10 @@ Both controls have been included in the "Gauge" screen of the [PhoneTest](https:
   - could potentially be used as a weather vane since it can show the Direction suffix.
   - possibly use either Arc or Pie to sweep the angle for better visual appearance, see the screenshot.
   - it has publicly accessible methods: CurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
+- RoundGauge
+  - a gauge control that could be used for miscelaneous measurements.
+  - min/max values could be set individually.
+  - it has publicly accessible methods: getGaugeCurrentValue() for reading and setGaugeCurrentValue(newFloatValue) for writing.
 - LEDLight
   - a control that can be turned ON/OFF and Blink (which is of a higher order but will restore the last ON/OFF state once the blinking stops).
   - it has publicly accessible methods: isLED_ON() and isLED_Blink() for reading and setLED_ON(newBooleanValue) and setLED_Blink(newBooleanValue) for writing.
