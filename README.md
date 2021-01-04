@@ -10,7 +10,7 @@ All controls have been included in the "Gauge" screen of the [PhoneTest](https:/
   - designed to show -360 to 360 values and will reduce all other values to this range (use the CurrentValue() method to get the actual value).
   - could potentially be used as a weather vane since it can show the Direction suffix.
   - possibly use either Arc or Pie to sweep the angle for better visual appearance, see the screenshot.
-  - it has publicly accessible methods: CurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
+  - it has publicly accessible methods: getCurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
 - RoundGauge
   - a gauge control that could be used for miscelaneous measurements.
   - min/max values can be set individually.
