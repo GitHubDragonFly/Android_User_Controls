@@ -11,13 +11,16 @@ All controls have been included in the "Gauge" screen of the [PhoneTest](https:/
   - could potentially be used as a weather vane since it can show the Direction suffix.
   - possibly use either Arc or Pie to sweep the angle for better visual appearance, see the screenshot.
   - it has publicly accessible methods: getCurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
+  - all custom properties start with "ai".
 - RoundGauge
   - a gauge control that could be used for miscelaneous measurements.
   - min/max values can be set individually.
   - it has publicly accessible methods: getGaugeCurrentValue() for reading and setGaugeCurrentValue(newFloatValue) for writing.
+  - all custom properties start with "gauge".
 - LEDLight
   - a control that can be turned ON/OFF and Blink (which is of a higher order but will restore the last ON/OFF state once the blinking stops).
   - it has publicly accessible methods: isLED_ON() and isLED_Blink() for reading and setLED_ON(newBooleanValue) and setLED_Blink(newBooleanValue) for writing.
+  - all custom properties start with "led".
 
 Screenshot is included in each control's folder.
 
