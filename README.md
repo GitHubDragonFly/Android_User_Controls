@@ -37,4 +37,4 @@ All it should take is to:
 These are all licensed under MIT License.
 
 # Trademarks
-Any and all trademarks, either directly on indirectly mentioned in any control, belong to their respective owners.
+Any and all trademarks, either directly or indirectly mentioned in any control, belong to their respective owners.
