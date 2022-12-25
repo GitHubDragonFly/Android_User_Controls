@@ -13,17 +13,23 @@ The project itself is set with minimum requirement of Android 4.1 (API level 16)
   - possibly use either Arc or Pie to sweep the angle for better visual appearance, see the screenshot.
   - it has publicly accessible methods: getCurrentValue() for reading and setCurrentValue(newFloatValue) for writing.
   - all custom properties start with "ai".
+
+![Angle Indicator](Angle%20Indicator/AngleIndicator.png?raw=true)
+
 - RoundGauge
   - a gauge control that could be used for miscelaneous measurements.
   - min/max values can be set individually.
   - it has publicly accessible methods: getGaugeCurrentValue() for reading and setGaugeCurrentValue(newFloatValue) for writing.
   - all custom properties start with "gauge".
+
+![Round Gauge](Round%20Gauge/RoundGauge.png?raw=true)
+
 - LEDLight
   - a control that can be turned ON/OFF and Blink (which is of a higher order but will restore the last ON/OFF state once the blinking stops).
   - it has publicly accessible methods: isLED_ON() and isLED_Blink() for reading and setLED_ON(newBooleanValue) and setLED_Blink(newBooleanValue) for writing.
   - all custom properties start with "led".
 
-Screenshot is included in each control's folder.
+![LED Light](LED%20Light/LEDLight.png?raw=true)
 
 # Install
 
